@@ -1,6 +1,6 @@
 ---
-title: Sonoff BASIC R2 v1.4
-date-published: 2020-11-22
+title: Sonoff BASIC R2 v1.4.1
+date-published: 2024-04-02
 type: relay
 standard: global
 board: esp8266
@@ -36,13 +36,13 @@ The red side of the LED cannot be individually controlled without modification t
 ```yaml
 # Basic Config
 esphome:
-  name: sonoff_basic_r2
+  name: sonoff_basic_r21
   platform: ESP8266
   board: esp8285
 
 wifi:
-  ssid: !secret wifi_ssid
-  password: !secret wifi_password
+  ssid: GUEST
+  password:
 
 logger:
 api:
